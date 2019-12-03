@@ -11,10 +11,8 @@ if __name__ == '__main__':
     
     if test:
         res = count_upper(14)
-
         print(res)
     else:
-
         df = pd.read_csv('input.txt', header=None)
         df.columns = ['values']
 

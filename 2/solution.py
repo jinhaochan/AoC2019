@@ -39,7 +39,6 @@ if __name__=='__main__':
         opcode[1] = first
         opcode[2] = second
 
-
     # Logic
     while i < opcode_len:
         chunk = opcode[i:i+4]
@@ -53,7 +52,6 @@ if __name__=='__main__':
             opcode = multiplier(opcode, chunk[1], chunk[2], chunk[3])
         elif operand == 99:
             break
-
 
         i = i + 4 
 

@@ -1,6 +1,7 @@
 import ast
 import sys
 
+
 def adder(opcode, a, b, output):
     opcode[output] = opcode[a] + opcode[b]
     return opcode
